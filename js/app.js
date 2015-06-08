@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
         $("html, body").animate({scrollTop: scrollTo}, 400)
     });
 
-    $('[data-toggle-menu]').on('click', function(){
+    $('[data-toggle-menu]').on('click', function () {
         $('body').toggleClass('opened-off-canvas-menu')
     });
 
