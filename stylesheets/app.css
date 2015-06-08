@@ -515,16 +515,17 @@ body {
     bottom: 40px;
     color: #fff;
     cursor: pointer;
+    z-index: 2;
   }
 
-  /* line 542, ../scss/page.scss */
+  /* line 543, ../scss/page.scss */
   .arrow {
     position: relative;
     display: block;
     width: 50px;
     height: 50px;
   }
-  /* line 548, ../scss/page.scss */
+  /* line 549, ../scss/page.scss */
   .arrow:after, .arrow:before {
     position: absolute;
     width: 3px;
@@ -533,14 +534,14 @@ body {
     content: '';
     right: -60px;
   }
-  /* line 557, ../scss/page.scss */
+  /* line 558, ../scss/page.scss */
   .arrow:before {
     -webkit-transform: translateX(-50%) rotate(-45deg);
     transform: translateX(-50%) rotate(-45deg);
     -webkit-transform-origin: 0 100%;
     transform-origin: 0 100%;
   }
-  /* line 564, ../scss/page.scss */
+  /* line 565, ../scss/page.scss */
   .arrow:after {
     top: 50%;
     -webkit-transform: translateX(-50%) rotate(-135deg);
@@ -550,7 +551,7 @@ body {
   }
 }
 @media only screen and (min-width: 48.0625em) {
-  /* line 575, ../scss/page.scss */
+  /* line 576, ../scss/page.scss */
   .footer .back-top {
     display: block;
     position: absolute;
@@ -562,12 +563,12 @@ body {
     text-transform: uppercase;
     cursor: pointer;
   }
-  /* line 586, ../scss/page.scss */
+  /* line 587, ../scss/page.scss */
   .footer .back-top .arrow {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-  /* line 591, ../scss/page.scss */
+  /* line 592, ../scss/page.scss */
   .footer .back-top .arrow:after,
   .footer .back-top .arrow:before {
     background: #000;
@@ -600,12 +601,12 @@ body {
     background-position: 15px 0;
   }
 }
-/* line 626, ../scss/page.scss */
+/* line 627, ../scss/page.scss */
 .content .columns {
   padding: 0;
 }
 
-/* line 630, ../scss/page.scss */
+/* line 631, ../scss/page.scss */
 .content .container {
   max-width: 360px;
   padding: 5px 10px;
@@ -613,13 +614,13 @@ body {
   margin-right: auto;
   position: relative;
 }
-/* line 637, ../scss/page.scss */
+/* line 638, ../scss/page.scss */
 .content .container > img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* line 643, ../scss/page.scss */
+/* line 644, ../scss/page.scss */
 .content .container a {
   position: absolute;
   top: 0;
@@ -629,11 +630,11 @@ body {
   text-align: center;
   color: #fff;
 }
-/* line 652, ../scss/page.scss */
+/* line 653, ../scss/page.scss */
 .content .container a:hover, .content .container a:focus {
   color: #fff;
 }
-/* line 657, ../scss/page.scss */
+/* line 658, ../scss/page.scss */
 .content .container-body {
   position: absolute;
   top: 0;
@@ -642,7 +643,7 @@ body {
   width: 100%;
   height: 100%;
 }
-/* line 666, ../scss/page.scss */
+/* line 667, ../scss/page.scss */
 .content .container-footer {
   position: absolute;
   width: 100%;
@@ -652,13 +653,13 @@ body {
   font-size: 12px;
   letter-spacing: 2.5px;
 }
-/* line 676, ../scss/page.scss */
+/* line 677, ../scss/page.scss */
 .content .container-description {
   font-family: "proxima_nova_black", Helvetica, Arial, sans-serif;
   font-size: 20px;
   padding: 10px 0;
 }
-/* line 681, ../scss/page.scss */
+/* line 682, ../scss/page.scss */
 .content .container-description .trip-plane {
   background: url("../assets/images/plane.png") no-repeat 15px 0;
   padding: 0 35px;
@@ -667,27 +668,27 @@ body {
   display: inline-block;
   margin-bottom: -16px;
 }
-/* line 692, ../scss/page.scss */
+/* line 693, ../scss/page.scss */
 .content .container:hover .trip-plane {
   -webkit-animation-name: plane_animate;
   -webkit-animation-duration: 700ms;
   -webkit-animation-timing-function: cubic-bezier(0.55, 0.23, 0.35, 0.67);
   -webkit-animation-iteration-count: 1;
 }
-/* line 700, ../scss/page.scss */
+/* line 701, ../scss/page.scss */
 .content .container-info {
   font-family: "proxima_nova_black", Helvetica, Arial, sans-serif;
   font-size: 20px;
   margin-top: -5px;
   text-transform: uppercase;
 }
-/* line 707, ../scss/page.scss */
+/* line 708, ../scss/page.scss */
 .content .container-data {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 713, ../scss/page.scss */
+/* line 714, ../scss/page.scss */
 .content .container-title {
   color: #fff;
   font-family: "proxima_nova_bold", Helvetica, Arial, sans-serif;
@@ -695,14 +696,14 @@ body {
   letter-spacing: 1.5px;
   padding-top: 15px;
 }
-/* line 721, ../scss/page.scss */
+/* line 722, ../scss/page.scss */
 .content .container-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   padding: 0 30px;
 }
-/* line 728, ../scss/page.scss */
+/* line 729, ../scss/page.scss */
 .content .container-barcode {
   display: block;
   width: 70px;
@@ -710,62 +711,62 @@ body {
 }
 
 @media only screen and (min-width: 1025px) {
-  /* line 741, ../scss/page.scss */
+  /* line 742, ../scss/page.scss */
   .content .container-barcode {
     width: auto;
   }
-  /* line 745, ../scss/page.scss */
+  /* line 746, ../scss/page.scss */
   .content .container-description {
     font-size: 30px;
     padding: 20px 0;
   }
-  /* line 750, ../scss/page.scss */
+  /* line 751, ../scss/page.scss */
   .content .container-info {
     font-size: 30px;
   }
-  /* line 754, ../scss/page.scss */
+  /* line 755, ../scss/page.scss */
   .content .container-title {
     padding-top: 0;
   }
 }
-/* line 762, ../scss/page.scss */
+/* line 763, ../scss/page.scss */
 .footer-inner {
   position: relative;
 }
-/* line 766, ../scss/page.scss */
+/* line 767, ../scss/page.scss */
 .footer hr {
   border-color: #EBEBEB;
 }
-/* line 770, ../scss/page.scss */
+/* line 771, ../scss/page.scss */
 .footer-social ul {
   list-style-type: none;
   font-family: "hoefler_text_italic", Helvetica, Arial, sans-serif;
   font-size: 17px;
   margin: 0;
 }
-/* line 776, ../scss/page.scss */
+/* line 777, ../scss/page.scss */
 .footer-social ul li {
   display: inline-block;
 }
-/* line 780, ../scss/page.scss */
+/* line 781, ../scss/page.scss */
 .footer-social ul li a {
   color: #a1a1a1;
 }
-/* line 782, ../scss/page.scss */
+/* line 783, ../scss/page.scss */
 .footer-social ul li a:hover {
   color: #cccaca;
 }
-/* line 787, ../scss/page.scss */
+/* line 788, ../scss/page.scss */
 .footer-social ul li + li {
   margin-left: 18px;
 }
-/* line 792, ../scss/page.scss */
+/* line 793, ../scss/page.scss */
 .footer .copyright-info p {
   margin: 0;
   font-family: "proxima_nova_bold", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
-/* line 798, ../scss/page.scss */
+/* line 799, ../scss/page.scss */
 .footer .copyright-info img {
   display: block;
   margin: 30px auto;
